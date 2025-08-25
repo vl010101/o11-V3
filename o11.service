@@ -1,0 +1,11 @@
+[Unit]
+Description=o11
+
+[Service]
+ExecStart=/home/o11/v3p_launcher -p 7070 -noramfs -f /usr/local/bin/ffmpeg -path /home/o11/
+Restart=always
+User=root
+WorkingDirectory=/home/o11
+
+[Install]
+WantedBy=default.target
