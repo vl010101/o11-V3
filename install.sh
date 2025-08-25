@@ -7,10 +7,10 @@ cd ffmpeg-7.0.2-amd64-static/
 mv ffmpeg /usr/local/bin/
 mv ffprobe /usr/local/bin/
 cd /root
-wget https://github.com/sibuk76/o11-v3/raw/main/o11.rar
+wget https://github.com/sibuk76/o11-V3/raw/main/o11.rar
 unrar x o11.rar /home
 chmod -R +x /home/o11/
-wget https://raw.githubusercontent.com/sibuk76/o11-v3/main/o11.service
+wget https://raw.githubusercontent.com/sibuk76/o11-V3/main/o11.service
 chmod +x o11.service
 mv ./o11.service /etc/systemd/system/
 systemctl daemon-reload
